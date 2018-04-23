@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import TableReducer from './reducer_table';
 
 const rootReducer = combineReducers({
-    state: (state = {}) => state
+    table: TableReducer
 });
 
 export default rootReducer;
